@@ -27,15 +27,11 @@ export default function GetTasks() {
 
     let DeleteTask =  ( id:String) => {
 
-      //event.preventDefault();
 
-      //let params = useParams();
-      //let id = params.id;
       const url = `http://localhost:3000/todo_tasks/${id}`;
   
     
       fetch(url, {method:'DELETE'}).then( () => getTasks())
-      alert(`You will delete this task`)
       console.log(id)
       navigate("/")
   
