@@ -1,2 +1,2 @@
 # todoApp
- A TODO app demo using React
+ A simple TODO React app demo that calls and API.
